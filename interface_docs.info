@@ -1,6 +1,7 @@
 name = Interface Docs
 core = 7.x
 package = Departments
+php = 5.2.4
 version = 7.x-1.0
 project = interface_docs
 dependencies[] = features

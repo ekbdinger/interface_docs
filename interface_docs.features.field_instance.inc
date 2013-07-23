@@ -33,7 +33,7 @@ function interface_docs_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_interface_category',
-    'label' => 'Interface Category',
+    'label' => 'Interface Doc Category',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -239,7 +239,7 @@ function interface_docs_field_default_field_instances() {
   t('Description');
   t('Direction');
   t('Document');
-  t('Interface Category');
+  t('Interface Doc Category');
   t('Interface Type');
   t('This is an optional field.  If you do not think it\'s necessary, we can remove it');
   t('This is the highest level category for Interface Docs.  This will determine what page the document will display on');

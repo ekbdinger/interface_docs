@@ -55,7 +55,7 @@ function interface_docs_views_default_views() {
   $handler->display->display_options['fields']['field_interface_doc']['table'] = 'field_data_field_interface_doc';
   $handler->display->display_options['fields']['field_interface_doc']['field'] = 'field_interface_doc';
   $handler->display->display_options['fields']['field_interface_doc']['click_sort_column'] = 'fid';
-  /* Field: Content: Interface Category */
+  /* Field: Content: Interface Doc Category */
   $handler->display->display_options['fields']['field_interface_category']['id'] = 'field_interface_category';
   $handler->display->display_options['fields']['field_interface_category']['table'] = 'field_data_field_interface_category';
   $handler->display->display_options['fields']['field_interface_category']['field'] = 'field_interface_category';
@@ -151,14 +151,14 @@ function interface_docs_views_default_views() {
     50 => 0,
     51 => 0,
   );
-  /* Filter criterion: Content: Interface Category (field_interface_category) */
+  /* Filter criterion: Content: Interface Doc Category (field_interface_category) */
   $handler->display->display_options['filters']['field_interface_category_tid']['id'] = 'field_interface_category_tid';
   $handler->display->display_options['filters']['field_interface_category_tid']['table'] = 'field_data_field_interface_category';
   $handler->display->display_options['filters']['field_interface_category_tid']['field'] = 'field_interface_category_tid';
   $handler->display->display_options['filters']['field_interface_category_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_interface_category_tid']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_interface_category_tid']['expose']['operator_id'] = 'field_interface_category_tid_op';
-  $handler->display->display_options['filters']['field_interface_category_tid']['expose']['label'] = 'Interface Category';
+  $handler->display->display_options['filters']['field_interface_category_tid']['expose']['label'] = 'Interface Doc Category';
   $handler->display->display_options['filters']['field_interface_category_tid']['expose']['operator'] = 'field_interface_category_tid_op';
   $handler->display->display_options['filters']['field_interface_category_tid']['expose']['identifier'] = 'field_interface_category_tid';
   $handler->display->display_options['filters']['field_interface_category_tid']['expose']['remember_roles'] = array(
