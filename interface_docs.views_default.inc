@@ -628,7 +628,7 @@ function interface_docs_views_default_views() {
     50 => 0,
     51 => 0,
   );
-  $handler->display->display_options['path'] = 'interface/docs';
+  $handler->display->display_options['path'] = 'interface/docs/all';
 
   /* Display: Install Docs */
   $handler = $view->new_display('page', 'Install Docs', 'page_1');
@@ -1200,7 +1200,7 @@ function interface_docs_views_default_views() {
   /* Display: Reference Docs */
   $handler = $view->new_display('page', 'Reference Docs', 'page_3');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'Interface Installation Documents';
+  $handler->display->display_options['title'] = 'Interface Reference Documents';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
