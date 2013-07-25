@@ -181,7 +181,7 @@ function interface_docs_field_default_field_instances() {
     'settings' => array(
       'description_field' => 0,
       'file_directory' => 'departments/interfaces/interfaces_install/documents',
-      'file_extensions' => 'txt pdf doc xls',
+      'file_extensions' => 'txt pdf doc xls zip',
       'max_filesize' => '5 MB',
       'user_register_form' => FALSE,
     ),
@@ -201,7 +201,7 @@ function interface_docs_field_default_field_instances() {
     'bundle' => 'interfaces_document',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'This is an optional field. If you do not think it\'s necessary, we can remove it.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -242,6 +242,7 @@ function interface_docs_field_default_field_instances() {
   t('Interface Doc Category');
   t('Interface Type');
   t('This is an optional field.  If you do not think it\'s necessary, we can remove it');
+  t('This is an optional field. If you do not think it\'s necessary, we can remove it.');
   t('This is the highest level category for Interface Docs.  This will determine what page the document will display on');
   t('Upload the document file here');
 

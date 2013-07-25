@@ -14,7 +14,7 @@ function interface_docs_user_default_permissions() {
   $permissions['create interfaces_document content'] = array(
     'name' => 'create interfaces_document content',
     'roles' => array(
-      'Inter Install Doc' => 'Inter Install Doc',
+      'Inter Install Doc Worker' => 'Inter Install Doc Worker',
     ),
     'module' => 'node',
   );
@@ -23,7 +23,7 @@ function interface_docs_user_default_permissions() {
   $permissions['delete any interfaces_document content'] = array(
     'name' => 'delete any interfaces_document content',
     'roles' => array(
-      'Inter Install Doc' => 'Inter Install Doc',
+      'Inter Install Doc Worker' => 'Inter Install Doc Worker',
     ),
     'module' => 'node',
   );
@@ -32,7 +32,7 @@ function interface_docs_user_default_permissions() {
   $permissions['delete own interfaces_document content'] = array(
     'name' => 'delete own interfaces_document content',
     'roles' => array(
-      'Inter Install Doc' => 'Inter Install Doc',
+      'Inter Install Doc Worker' => 'Inter Install Doc Worker',
     ),
     'module' => 'node',
   );
@@ -41,7 +41,7 @@ function interface_docs_user_default_permissions() {
   $permissions['edit any interfaces_document content'] = array(
     'name' => 'edit any interfaces_document content',
     'roles' => array(
-      'Inter Install Doc' => 'Inter Install Doc',
+      'Inter Install Doc Worker' => 'Inter Install Doc Worker',
     ),
     'module' => 'node',
   );
@@ -50,7 +50,7 @@ function interface_docs_user_default_permissions() {
   $permissions['edit own interfaces_document content'] = array(
     'name' => 'edit own interfaces_document content',
     'roles' => array(
-      'Inter Install Doc' => 'Inter Install Doc',
+      'Inter Install Doc Worker' => 'Inter Install Doc Worker',
     ),
     'module' => 'node',
   );
