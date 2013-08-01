@@ -716,7 +716,7 @@ function interface_docs_views_default_views() {
   $handler->display->display_options['filters']['field_interface_category_tid']['table'] = 'field_data_field_interface_category';
   $handler->display->display_options['filters']['field_interface_category_tid']['field'] = 'field_interface_category_tid';
   $handler->display->display_options['filters']['field_interface_category_tid']['value'] = array(
-    1003 => '1003',
+    1005 => '1005',
   );
   $handler->display->display_options['filters']['field_interface_category_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_interface_category_tid']['expose']['operator_id'] = 'field_interface_category_tid_op';
@@ -1014,7 +1014,7 @@ function interface_docs_views_default_views() {
   $handler->display->display_options['filters']['field_interface_category_tid']['table'] = 'field_data_field_interface_category';
   $handler->display->display_options['filters']['field_interface_category_tid']['field'] = 'field_interface_category_tid';
   $handler->display->display_options['filters']['field_interface_category_tid']['value'] = array(
-    1005 => '1005',
+    1007 => '1007',
   );
   $handler->display->display_options['filters']['field_interface_category_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_interface_category_tid']['expose']['operator_id'] = 'field_interface_category_tid_op';
@@ -1283,7 +1283,7 @@ function interface_docs_views_default_views() {
   $handler->display->display_options['filters']['field_interface_category_tid']['table'] = 'field_data_field_interface_category';
   $handler->display->display_options['filters']['field_interface_category_tid']['field'] = 'field_interface_category_tid';
   $handler->display->display_options['filters']['field_interface_category_tid']['value'] = array(
-    1004 => '1004',
+    1006 => '1006',
   );
   $handler->display->display_options['filters']['field_interface_category_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_interface_category_tid']['expose']['operator_id'] = 'field_interface_category_tid_op';

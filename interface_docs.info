@@ -37,7 +37,6 @@ features[menu_links][] = menu-interface-install-docs:interface/docs/all
 features[menu_links][] = menu-interface-install-docs:interface/docs/install
 features[menu_links][] = menu-interface-install-docs:interface/docs/reference
 features[menu_links][] = menu-interface-install-docs:interface/docs/training
-features[menu_links][] = menu-interface-install-docs:node/10193
 features[menu_links][] = menu-interface-install-worker:node/add/interfaces-document
 features[node][] = interfaces_document
 features[taxonomy][] = interface_doc_categories
