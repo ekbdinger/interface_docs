@@ -59,14 +59,6 @@ function interface_docs_context_default_contexts() {
   $context->description = '';
   $context->tag = 'interfaces';
   $context->conditions = array(
-    'node' => array(
-      'values' => array(
-        'interfaces_document' => 'interfaces_document',
-      ),
-      'options' => array(
-        'node_form' => '1',
-      ),
-    ),
     'path' => array(
       'values' => array(
         'interface/docs' => 'interface/docs',
@@ -131,7 +123,7 @@ function interface_docs_context_default_contexts() {
       ),
     ),
   );
-  $context->condition_mode = 0;
+  $context->condition_mode = 1;
 
   // Translatables
   // Included for use with string extractors like potx.
